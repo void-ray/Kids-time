@@ -1,0 +1,124 @@
+﻿body {
+    width: 100%;
+    height: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    position:relative;
+}
+ #main{
+    position: relative;
+    margin: 0px;
+    width: 100%;
+    height: 784px;
+    left: 0px;
+    top: 116px;
+    background: linear-gradient(107.03deg, rgba(37, 197, 244, 0.2) 6.64%, rgba(255, 255, 255, 0.2) 111.26%), rgba(150, 215, 238, 0.5);
+}
+#navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+    gap: 52px;
+    position: absolute;
+    width: 1239px;
+    height: 56px;
+    left: 101px;
+    top: 30px;
+}
+#menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 40px;
+    width: 594px;
+    height: 18px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+#kids {
+    width: 124px;
+    height: 29px;
+    font-family: 'Mochiy Pop One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 29px;
+    letter-spacing: 0.145em;
+    color: #6958C2;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+#watch {
+    position: absolute;
+    width: 671.69px;
+    height: 586.37px;
+    right: 101.31px;
+    top: 53.63px;
+    background: url(Group.png);
+}
+#kidsgps {
+    position: absolute;
+    width: 433.35px;
+    height: 222.07px;
+    left: 101.59px;
+    top: 96.91px;
+    background: url(GroupGPS.png);
+}
+
+#inform {
+    position: absolute;
+    width: 324px;
+    height: 165px;
+    left: 101px;
+    top: 377px;
+    font-family: 'Comfortaa';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+    display: inline-flex;
+    align-items: center;
+    letter-spacing: 0.145em;
+    color: #000000;
+}
+#order {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 32px;
+    position: absolute;
+    width: 189px;
+    height: 48px;
+    left: 101px;
+    top: 595px;
+    background: #EA4F82;
+    border-radius: 10px;
+}
+.button {
+    height: 18px;
+    font-family: 'Comfortaa';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.145em;
+    color: #000000;
+    background-color:white;
+    border:hidden;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+    .button:hover {
+        color: blueviolet;
+        font-weight:bold;
+    }
